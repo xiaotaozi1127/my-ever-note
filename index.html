@@ -2,6 +2,10 @@
     <head>
         <title>my everNote</title>
         <style type="text/css">
+        body{
+            background-image: url("https://evernote.com/img/home/returning-user-experience/team-meeting-overlay.jpg");
+            color: white;
+        }
         .body {
             margin: auto;
             width: 50%;
@@ -9,6 +13,10 @@
             text-align: center;
         }
         button{
+            cursor: pointer;
+        }
+        a{
+            text-decoration: underline;
             cursor: pointer;
         }
         h1{
@@ -23,9 +31,11 @@
         .btn-sign-up{
             width: 70%;
             font-size: medium;
-            background-color: #50AE54;
+            background-color: #1D9E45;
             color: white;
             height: 45px;
+            border-radius: 3px;
+            border: none;
         }
         .btn-sign-google{
             height:30px;
@@ -47,7 +57,7 @@
             <p>Keep Your Team on the Same Page with Evernote Business</p>
             <input type="text" name="email" placeholder="Email">
             <input type="text" name="password" placeholder="Password">
-            <p>By clicking Sign up, i agree to the Terms of service and Privacy Policy.</p>
+            <p>By clicking Sign up, i agree to the <a>Terms of service</a> and <a>Privacy Policy</a>.</p>
             <button class="btn-sign-up">SIGN UP FOR FREE</button>
             <p>or</p>
             <button class="btn-sign-google">
